@@ -10,17 +10,17 @@ body {font-family: Arial, sans-serif; line-height: 1.6; color: #333;}
 
 /* Header section */
 
-.main-header {background-color: #2c3e50; padding: 20px 0;}
+.main-header {background-color: #450645; padding: 20px 0;}
 
 .main-header .container {display: flex; justify-content: space-between; align-items: center;}
 
 .logo {font-size: 24px; font-weight: bold; color: #ffffff;}
 
-.main-nav a {color: #ffffff; text-decoration: none; margin-left: 30px;}
+.main-nav a {color: #ffffff; text-decoration: none; margin-left: 30px; }
 
 /* Hero section */
 
- .hero {background-color: #3498db; color: #ffffff; padding: 100px 0; text-align: center;}
+ .hero {background-color: #f9da3e; color: #ffffff; padding: 100px 0; text-align: center;}
 
  .hero-title {font-size: 48px; margin-bottom: 20px;}
 
@@ -28,9 +28,9 @@ body {font-family: Arial, sans-serif; line-height: 1.6; color: #333;}
 
 /* buttons */
 
-.btn {padding: 15px 30px; font-size: 18px; border: none; border-radius: 5px; cursor: pointer;}
+.btn {padding: 20px 40px; font-size: 22px; border: none; border-radius: 5px; cursor: pointer;}
 
-.btn-primary {background-color: #e74c3c; color: #ffffff;}
+.btn-primary {background-color: #ff1900; color: #ffffff;}
 
 /* each lesson adds sections below this. Use comments for organization. Existing sections will be enhanced. */
 
