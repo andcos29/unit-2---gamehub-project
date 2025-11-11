@@ -34,7 +34,7 @@ body {font-family: Arial, sans-serif; line-height: 1.6; color: #333;}
 
  .hero-title {font-size: 48px; margin-bottom: 20px; transition: color 0.3 ease, transform 0.3s ease;}
  
- .hero-title:hover {color: #f39c12; transform: scale(1.5);}
+ .hero-title:hover {color: #f39c12; transform: scale(1.1);}
  
  .hero-subtitle {font-size: 20px; margin-bottom: 30px;}
 
