@@ -16,22 +16,37 @@ body {font-family: Arial, sans-serif; line-height: 1.6; color: #333;}
 
 .logo {font-size: 24px; font-weight: bold; color: #ffffff;}
 
-.main-nav a {color: #ffffff; text-decoration: none; margin-left: 30px; }
+.logo:hover {transform: scale(1.1); cursor: pointer;}
+
+.main-nav a {color: #ffffff; text-decoration: none; margin-left: 30px; transition: color 0.3s ease; }
+
+.main-nav a:hover {
+    color: #9acd32;
+    border-bottom: 2px solid yellowgreen; 
+    padding-bottom: 5px;
+}
+
+.main-nav a:focus {outline: 2px solid #3498db; outline-offset: 4px;}
 
 /* Hero section */
 
  .hero {background-color: #f9da3e; color: #ffffff; padding: 100px 0; text-align: center;}
 
- .hero-title {font-size: 48px; margin-bottom: 20px;}
-
+ .hero-title {font-size: 48px; margin-bottom: 20px; transition: color 0.3 ease, transform 0.3s ease;}
+ 
+ .hero-title:hover {color: #f39c12; transform: scale(1.5);}
+ 
  .hero-subtitle {font-size: 20px; margin-bottom: 30px;}
 
 /* buttons */
 
-.btn {padding: 20px 40px; font-size: 22px; border: none; border-radius: 5px; cursor: pointer;}
+.btn {padding: 20px 40px; font-size: 22px; border: none; border-radius: 5px; cursor: pointer; transition: transform 0.3s ease, opacity 0.3s ease;}
 
 .btn-primary {background-color: #ff1900; color: #ffffff;}
 
+.btn:hover {transform: translateY(-2px) scale(1.2); opacity: 0.9; }
+ 
+.btn:active {transform: translateY(0);}
 /* each lesson adds sections below this. Use comments for organization. Existing sections will be enhanced. */
 
 
