@@ -285,7 +285,8 @@ h1 {
     flex-direction: row-reverse;
 }
 
-
-
-
-/*  Lesson 10 Animation */
+/*  Lesson 12 footer */
+.main-footer {background: linear-gradient(135deg, #738291 0%, #5b6bbe 100%); color: white; padding:  60px 0 20px 0 ;}
+.footer-content {
+    display: flex; justify-content: space-between; gap: 40px; margin-bottom: 40px;
+}
