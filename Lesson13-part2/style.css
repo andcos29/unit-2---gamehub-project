@@ -128,14 +128,14 @@ animation: fade 1.2s ease-in-out infinite;
 }
 
 /* TODO: Create animation delays for each dot */
-.loading-dot .dot:nth-child(1) {
+.loading-dots .dot:nth-child(1) {
     animation-delay: 0s;
 }
-.loading-dot .dot:nth-child(2) {
-    animation-delay: 2s;
+.loading-dots .dot:nth-child(2) {
+    animation-delay: 0.2s;
 }
-.loading-dot .dot:nth-child(3) {
-    animation-delay: 4s;
+.loading-dots .dot:nth-child(3) {
+    animation-delay: 0.4s;
 }
 /* TODO: Create @keyframes fade here */
 
