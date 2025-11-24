@@ -24,11 +24,11 @@ div {
 }
 
 @keyframes colortransform {
-0% {background-color: red; transform: rotate(0deg); scale: (1);}
-25% {background-color: blue; transform: rotate(90deg); scale: (2);}
-50% {background-color: green:(3, 247, 64, 0.354); transform: rotate(180deg);scale: (1)}
-75% {background-color: rgb(255, 0, 0) ;transform: rotate(270deg); scale: (2);}
-100% {background-color: white; transform: rotate(360deg); scale: (1);}
+0% {background-color: red; transform: rotate{deg} scale: {1};}
+25% {background-color: blue; transform: rotate{90deg}; scale: {2};}
+50% {background-color: green;{3, 247, 64, 0.354}; transform: rotate{180deg};scale: {1}}
+75% {background-color: rgb{255, 0, 0} ;transform: rotate{270deg}; scale: {2};}
+100% {background-color: white; transform: rotate{360deg}; scale: {1};}
 }
 
 @keyframes colortransform  {

@@ -168,6 +168,7 @@ body {
 .feature-icon {
     font-size: 60px;
     margin-bottom: 20px;
+        
 }
 
 .feature-card h3 {
@@ -354,4 +355,25 @@ transition: color 0.3s ease;
 
 .footer-bottom a:hover {
     color: #3498db;
+}
+
+
+/* Animations additional */
+.ball  {
+    /* shape and size */
+    width: 60px;
+    display: flex;
+    align-self: center;
+    height: 60px;
+    border-radius: 50%;
+    /* colors and effects */
+    background-color: rgb(24, 23, 23);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    /* apply the animation */
+    animation: bounce 1s ease-in-out infinite;}
+
+@keyframes bounce {
+    0% {transform: translateY(0);}
+        50% {transform: translateY(-94.5px);}
+        100%  {transform: translateY(0);}
 }
