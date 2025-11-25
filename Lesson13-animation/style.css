@@ -367,13 +367,13 @@ transition: color 0.3s ease;
     height: 60px;
     border-radius: 50%;
     /* colors and effects */
-    background-color: rgb(24, 23, 23);
+    background-color: rgb(24, 24, 24);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
     /* apply the animation */
     animation: bounce 1s ease-in-out infinite;}
 
 @keyframes bounce {
     0% {transform: translateY(0);}
-        50% {transform: translateY(-94.5px);}
+        50% {transform: translateY(-10px);}
         100%  {transform: translateY(0);}
 }
