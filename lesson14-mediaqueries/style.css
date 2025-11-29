@@ -129,11 +129,14 @@ p {
    LESSON 6-9: HERO SECTION
    LESSON 13: Added entrance animations
    =================================== */
+
+
 .hero {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
     color: #ffffff;
     padding: 120px 0;
     text-align: center;
+
 }
 
 /* LESSON 13: Hero title entrance animation */
@@ -592,19 +595,61 @@ ACCESSIBILITY EXPLANATION:
    END OF LESSON 14
 Responsive design - media queries.
    =================================== */
+.hamburger {
+    display: none;
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+    border: 2px solid transparent;
+    border-radius: 4px;
+    padding: 5px 10px;
+}
+
+.hamburger:focus {
+    outline: 2px solid rgba(45, 132, 239, 0.9);
+    outline-offset: 2px;
+}
+
+.mobile-nav {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    background-color: #2c3e50;
+    padding: 20px;
+    box-shadow: 0 5 15px rgba(255, 255, 255, 0.1);
+    z-index: 1000;
+}
+
+.mobile-nav a {
+    color: white;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    transition: color 0.3s ease;
+}
+
+.mobile-nav a:hover {
+    color: #3498db;
+}
 
 @media (max-width: 768px) {
     .hero {
-     background: linear-gradient(135deg, red 0%, #8000ff 100%);
+        background: linear-gradient(135deg, red 0%, #8000ff 100%);
     }
 
 
-/* mobile nav */
-.main-nav {display: none;}
-.hamburger {
-    display: block;
-}
-.hamburger:focus + .mobile-nav {
-    display: flex;
-}
+    /* mobile nav */
+    .main-nav {
+        display: none;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    .hamburger:focus + .mobile-nav {
+        display: flex;
+    }
 }
