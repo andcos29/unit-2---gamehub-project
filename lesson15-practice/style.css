@@ -74,7 +74,6 @@
 
 .services-container {
    display: flex;
-   background-color: #2d2d44;
    gap: 30px;
    align-items: center;
 }
@@ -150,7 +149,13 @@
 
 /* YOUR CODE FOR TASK 4 HERE: */
 
+.service-card {
+ transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
 
+.service-card:hover {
+transform: translateY(-10px); box-shadow: 0 15px 35px rgba(0, 0, 0, 0.4);
+}
 
 
 /* ===========================================
